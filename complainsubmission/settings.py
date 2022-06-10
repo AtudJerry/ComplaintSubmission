@@ -27,7 +27,13 @@ SECRET_KEY = 'django-insecure-vc_h6278*xar(&sj%x$6kgzw0dumwiv2z70uw(rm&a1knjc2hz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://complaintsubmission.herokuapp.com',
+    'https://www.complaintsubmission.herokuapp.com',
+    'pl4g.herokuapp.com',
+    '127.0.0.1',
+    'localhost',
+]
 
 
 # Application definition
