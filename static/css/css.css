@@ -1,0 +1,35 @@
+h1{
+    color: rgb(48, 48, 73);
+    font-family: Cambria;
+    margin-left: 30%;
+}
+body{
+    margin-left: 20%;
+}
+#id_name{
+    margin-left: 2cm;
+    padding: 9px;
+}
+#id_matricule{
+    margin-left: 2cm;
+    padding: 9px;
+}
+#id_complain{
+    margin-left: 2cm;
+    padding: 9px;
+}
+#id_prove{
+    margin-left: 2cm;
+    padding: 9px;
+}
+form{
+    width: 3cm;
+    align-items: center;
+    padding: 9px;
+}
+button{
+    margin-left: 5cm;
+    height: 1cm;
+    width: 3cm;
+    background-color: aqua;
+}

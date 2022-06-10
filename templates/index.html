@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/css.css' %}">
+</head>
+<body>
+    <h1><b>Complaints</b></h1>
+    <div class="info">
+        <blockquote><p >If you have any errors with your CA marks, kindly fill the following form with the appropriate information.<br>
+    </p>
+     the prove, do a screenshot of your CA paper and submit as a file.<br>Click the submit button after entering all the information.</p><br></blockquote><br><br>
+    <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form }}<br><br><br>
+<button type="submit">submit</button>
+
+    </form>
+</div>
+
+</body>
+</html>
